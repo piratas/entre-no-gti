@@ -11,11 +11,12 @@
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome')->with('participantes', \App\Participante::all());
 });
 
-Route::post('/participantes', 'ParticipanteController@criar');
+Route::post('/', 'ParticipanteController@criar');
 
 /*
 |--------------------------------------------------------------------------
