@@ -19,6 +19,6 @@ class ParticipanteController extends Controller
       $participante->save();
 
 
-      return redirect('/');
+      return redirect()->to('http://gti.pirata.xyz/entre-no-gti/');
     }
 }

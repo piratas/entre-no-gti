@@ -20,7 +20,7 @@
   <body class="container">
     <h1>Deseja participar do GTI Pirata?</h1>
 
-    <form action="/participantes" method="post">
+    <form action="/" method="post">
           <label for="nome">Nome</label>
           <input type="text" name="nome">
 
